@@ -12,5 +12,3 @@ Average run times came out to be: <br />
 ### 4.Heap
 2.9788327333333333 s
 <br />
-
-Input file is not uploaded due to data privacy. <br />
