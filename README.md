@@ -1,4 +1,8 @@
 BIST Trading System Components
+(Borsa Istanbul)
+Processing Borsa Istanbul orders captured in a pcap file using Wireshark, followed by parsing the data with the ITCH protocol and storing it in four different containers to evaluate the performance of each.
+https://www.borsaistanbul.com/files/bistech-itch-protocol-specification.pdf
+
 
 This project implements various components essential for building and managing an order book system, 
 with a focus on financial markets like BIST. It includes multiple data structures, parsers,
