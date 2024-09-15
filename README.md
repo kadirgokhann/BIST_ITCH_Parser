@@ -1,4 +1,5 @@
 BIST Trading System Components
+
 This project implements various components essential for building and managing an order book system, 
 with a focus on financial markets like BIST. It includes multiple data structures, parsers,
 and algorithms optimized for high-frequency trading environments.
