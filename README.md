@@ -1,14 +1,21 @@
-# Hft-Orderbook
+BIST Trading System Components
+This project implements various components essential for building and managing an order book system, 
+with a focus on financial markets like BIST. It includes multiple data structures, parsers,
+and algorithms optimized for high-frequency trading environments.
 
-## Comparison of data structures' performances as a container for an HFT Orderbook.
-Parsing Borsa Istanbul orders captured in a pcap file with Wireshark, then using [ITCH protocol](https://www.borsaistanbul.com/files/bistech-itch-protocol-specification.pdf) and storing in 4 different containers to measure performance of each. <br />
-Average run times came out to be: <br />
-### 1.Linked list  <br />
-3.017533142857143 s
-### 2.Hash  <br />
-2.9160078571428576 s
-### 3.Rbt <br />
-2.9219570666666668 s
-### 4.Heap
-2.9788327333333333 s
-<br />
+
+Features
+
+Red-black tree, hash, and linked list-based order book implementations
+
+Message parsing for financial protocols such as ITCH
+
+Efficient handling of orders and trades
+
+Modular design to support multiple data structures for order management
+
+Usage
+
+The codebase is structured to be easily extended or integrated into larger trading
+systems. It supports handling large volumes of financial data in real-time.
+
